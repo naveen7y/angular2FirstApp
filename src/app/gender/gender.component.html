@@ -1,0 +1,16 @@
+
+<span
+class="glyphicon glyphicon-arrow-up"
+[class.highlighted]="isUpSelected"
+(click) ="onUpClick()"
+></span>
+<span 
+class="glyphicon glyphicon-arrow-down"
+[class.highlighted]="isDownSelected"
+(click) ="onDownClick()"
+></span>
+<br>
+<h2 *ngIf="isUpSelected && !isDownSelected; then upArrow"></h2>
+<h2 *ngIf="isDownSelected && !isUpSelected; then downArrow"></h2>
+<ng-template #upArrow>Up</ng-template>
+<ng-template #downArrow>Down</ng-template>
