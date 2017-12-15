@@ -1,6 +1,6 @@
 # FirstApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+This Project has bootstrap compenents is for just testing angular directives.
 
 ## Development server
 
