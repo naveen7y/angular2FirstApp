@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  courses; 
+
+  onClick(){
+    this.courses=["course1","course2","course3","course4"];
+  }
 }

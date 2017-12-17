@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { GenderComponent } from './gender/gender.component';
+import { InputFormatDirective } from './input-format.directive';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GenderComponent
+    GenderComponent,
+    InputFormatDirective,
+    ZippyComponent
   ],
   imports: [
     BrowserModule
